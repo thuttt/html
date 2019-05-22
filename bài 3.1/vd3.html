@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Box model</title>
+        <style>
+        .box{
+            border: 1px double red;
+            width: 150px;
+            height: 150px;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: -5px -5px 5px blue;
+            background-image: url('image/logo.png');
+
+            background-size: 100% 100%;
+        }
+        .box>img{
+            width: 50px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            Box 1
+        <img src="image/3.jpg"/>
+        </div>
+        <div class="box">
+            box 2
+        </div>
+    </body>
+</html>
