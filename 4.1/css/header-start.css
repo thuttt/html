@@ -1,0 +1,26 @@
+.container header{
+    position: relative;
+    background: url("../img/banner-trang-lien-he-moi.jpg") ;
+
+width: 100%;
+height: auto;
+}
+
+
+.company-info{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.company-info>h1{}
+
+.company-info>strong{}
+  
+.top-menu{
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
+.top-menu a{
+
+}

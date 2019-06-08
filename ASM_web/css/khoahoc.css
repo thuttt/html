@@ -1,0 +1,44 @@
+.khoa-hoc{width:30%;
+   float:left;
+   margin-right: 3%;
+   margin-top:10px;
+   margin-bottom: 40px;}
+.khoa-hoc>a:hover>.box-kh{box-shadow:0 0 10px blue;}
+.box-kh{
+  border-radius:10px;
+  box-shadow:0 0 5px gray;
+  margin:5px;
+  padding:5px;
+  text-align:center;
+  position:relative;}
+.box-kh>.ten-kh{
+	font-family:Impact;
+	font-variant:small-caps;
+	font-size: 20px;
+	font-weight: bolder;
+	color: red;
+    position:absolute;
+    top: 10px;
+    left: 20px;
+    }
+.box-kh>.image{
+	max-width:98%;
+	margin-bottom:10px;
+	max-height: 150px;}
+.box-kh>.gia-kh{
+	position:absolute;
+	left:20px;
+	bottom:20px;
+	font-family:Impact;
+	font-size:25px;
+	color:red;}
+.box-kh>.icons{
+	position:absolute;
+	right:5px;
+	bottom:5px;
+	width:25px;}
+.box-kh>.new-icon{position:absolute;
+	top:5px;
+	right:5px;
+    width: 90px;}
+hr{clear: both;}

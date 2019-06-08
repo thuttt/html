@@ -1,0 +1,14 @@
+.nd>img{padding-right:20px;
+   padding-top: 30px;
+   width: 40%;}
+.nd>a{text-decoration: none;
+    color: blue;float: right;}
+.nd>a>h2{font-size: 14pt;
+	text-align: justify;
+	padding-top: 30px;
+	padding-right: 15px;}
+.nd>a:hover{color: red;}
+.nd>i{text-align: justify;
+	padding-right: 30px;}
+article>h1{font-weight: bolder;
+  margin-top: 40px;}

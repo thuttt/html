@@ -1,0 +1,23 @@
+.container{
+    position: relative;
+    width: 100%;
+}
+
+.left{
+    position: absolute;
+    width: 70%;
+    height: auto;
+    left: 10px;
+    top: 5px;
+}
+.right{
+    position: absolute;
+    width: 30%;
+    right: 10px;
+    top: 5px;
+}
+img{
+    padding: 0 0 20px 20px;
+    width: 300px;
+    text-align: center;
+}

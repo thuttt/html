@@ -1,0 +1,27 @@
+.vmenu{
+    border: 1px solid lightblue;
+    margin: 5px;
+    padding: 0px;
+    border-radius: 3px;
+    box-shadow: 0 0  2px orangered;
+    list-style: none;
+}
+.vmenu li a{
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px dotted orange;
+    text-decoration: none;
+    font-variant: small-caps;
+    color: orangered;
+    padding-left: 25px;
+    background: url(../img/5.png) no-repeat 10px center ;
+    padding: 8px 5px 8px 30px;
+}
+.vmenu li a:hover{
+    background: url(../img/5.png) no-repeat left ;
+    font-weight: bolder;
+    color: white;
+    font-weight: bold;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+}

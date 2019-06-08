@@ -1,0 +1,99 @@
+.container.{
+    max-width: 1000px;
+    margin: auto;
+}
+.background{
+    background-image: url('../image/banner-trang-lien-he-moi.jpg');
+    background-size: cover;
+    height: 315px;
+    padding-bottom: 50px;
+   
+}
+.container>nav{
+    background-color:orangered;
+    text-align: center;
+    font-variant: small-caps;
+    line-height: 40px;
+    color: white;
+}
+.container nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+}
+.container nav a:hover{
+    color:yellow;
+    text-decoration: underline;
+}
+.container article{
+    background-color: white;
+    width: 85%;
+    float: left;
+    
+   
+}
+.container article div{
+    text-align: justify;
+    padding: 5px 20px 15px 40px;
+    width: 75%;
+    
+}
+h1{
+    font-weight: bold;
+
+    color: rgb(168, 0, 0);
+    
+}
+h3{
+    color: rgb(4, 4, 134);
+}
+.box{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 75%;
+
+}
+button{
+    border: 1px solid black;
+    box-shadow: inset 0 0 5px  red;
+    padding: 5px;
+}
+
+.container aside{
+    width: 15%;
+    height: 100%;
+    float: right;
+    background-color:rgb(165, 162, 162);
+    text-align: left;
+    font-variant: small-caps;
+    min-height: 400px;
+   
+  
+    
+}
+.container aside ul li a{
+    padding: 5px 5px 50px 5px;
+    color: rgb(4, 78, 138);
+    text-decoration: none;
+}
+.main_content{
+    width: 100%;
+    clear: both;
+
+}
+footer{
+    text-align: center;
+    width: 100%;
+    background-color: lightcyan;
+    padding: 20px 20px 20px 20px;
+    border-top: 5px double orangered;
+    
+    font-variant: small-caps;
+    line-height: 50px;
+
+
+}
+.clear{
+    clear: both;
+
+}

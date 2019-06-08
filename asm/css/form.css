@@ -1,0 +1,11 @@
+.text-box{
+    width: 500px;
+    height: 25px;
+    margin: 10px 0 10px 0;
+}
+.btn{
+    width: 100px;
+    border: 1px solid black;
+    box-shadow: inset 0 0 5px yellow;
+   
+}

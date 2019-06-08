@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <title>lab 2</title>
+    <link href="css/lab1.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <div class="form-group">
+            <label>HỌ VÀ TÊN :</label>
+            <input class="form-control" tabindex="1" type="text" name="tên">
+        </div>
+        <div class="form-group">
+            <fieldset>
+                <legend>GIỚI TÍNH :</legend>
+                <label class="radio-inline">
+                    <input class="" type="radio" name="giới tính" checked /> Nam
+                </label>
+
+                <label class="radio-inline">
+                    <input class="" name="giới tính" type="radio" /> Nữ
+                </label>
+            </fieldset>
+        </div>
+
+        <div class="form-group">
+            <label>NGÀY SINH :</label>
+            <input class="form-control" tabindex="1" type="date" name="ngày sinh">
+        </div>
+        <div class="form-group">
+            <label>ĐIỂM :</label>
+            <input class="form-control" tabindex="1" type="number" min="0" max="10" step="0.25" name="điểm">
+        </div>
+        <br />
+        <div class="form-group">
+            <label>NGHỀ NGHIỆP:</label><br />
+            <input class="form-control" list="nghenghiep">
+            <datalist id="nghenghiep">
+                <option value="giáo viên">
+                <option value="sinh viên">
+                <option value="nhân viên hành chính">
+                <option value="giám đốc">
+                <option value="kĩ sư">
+
+            </datalist>
+        </div>
+
+        <div class="form-group">
+            <label>NGHỀ NGHIỆP:</label><br />
+            <select class="form-control">
+                <option>giáo viên</option>
+                <option>sinh viên</option>
+                <option>nhân viên hành chính</option>
+                <option>giáo viên</option>
+                <option>giáo viên</option>
+                <option value="">
+                <option value="">
+                <option value="giám đốc">
+                <option value="kĩ sư">
+
+            </datalist>
+        </div>
+
+        <fieldset class="form-group">
+            <legend class="form-group">SỞ THÍCH :</legend>
+            <label class="radio-inline"> <input type="checkbox" name="sở thích"/> thể thao </label>
+            <label class="radio-inline"> <input type="checkbox" name="sở thích"/> du lịch </label>
+            <label class="radio-inline"> <input type="checkbox" name="sở thích"/> âm nhạc </label>
+            <label class="radio-inline"> <input type="checkbox" name="sở thích"/> ẩm thực </label>
+
+        </fieldset>
+        <div class="form-group">
+            <label>GHI CHÚ : </label><br />
+            <textarea class="form-control" tabindex="2" cols="50" rows="7"></textarea>
+        </div>
+
+        <hr />
+
+        <button class="form-buttom" tabindex="3">ĐĂNG KÝ</button>
+        <button class="form-buttom" tabindex="4">NHẬP LẠI</button>
+    </form>
+</body>
+
+</html>

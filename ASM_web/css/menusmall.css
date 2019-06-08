@@ -1,0 +1,25 @@
+.submenu{
+    width: 200px;
+    border: 1px solid cyan;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 3px;
+    list-style: none;
+    font-variant: small-caps;
+    position: absolute;
+    display: none;
+    background-color: white}
+.submenu>li>a{display: block;
+    font-size: 10pt;
+    color: #0080aa;
+    line-height: 30px;
+    border-bottom: 1px dotted cyan;
+    text-decoration: none;
+    padding-left: 30px;
+    background: url('../images/2.gif') no-repeat 5px center;
+    background-size: 25px;
+    font-weight: bolder;
+    }
+.submenu>li>a:hover{background: url('../images/1.gif') no-repeat 5px center #00b0ea;
+    background-size: 25px;
+    color: red;}

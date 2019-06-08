@@ -1,0 +1,23 @@
+.nd{width: 100%;
+    height: 300px;
+   margin-top: 20px;}
+.nd img{
+   width: 40%;
+   float: left;}
+.nd1{width: 55%;
+	float: left;
+	padding-left: 20px}
+.nd1 a{text-decoration: none;
+    color: blue;
+    text-align: justify;}
+.nd1 a>h2{line-height:  40px;}
+.nd h1{padding-top: 40px;
+padding-bottom: 10px;}
+.nd1 >a:hover{color: red;}
+
+.ndtt{font-family: "time new roman";}
+.ndtt h2{text-align: center;padding-top: 60px;padding-bottom: 20px;}
+.ndtt p{text-align: justify;
+	padding-right:20px;
+line-height: 17pt;}
+.ndtt img{width: 100%; padding-right:20px;}

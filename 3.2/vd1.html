@@ -1,0 +1,75 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> layout</title>
+    <style>
+  
+     body{
+        padding: 0;
+        margin: 0;
+    }
+     header{
+        width: 100%;
+        height: 150px;
+        background: red;
+    }
+    nav{
+        background-color: yellow;
+        line-height: 25px;
+        text-align: center;
+        padding: 15px;
+
+       
+    }
+    article{
+        min-height:400px;
+        width: 75%;
+        height: auto;
+        background: wheat;
+        float: left;
+        background-size: 75%;
+    }
+    iframe{
+        width: 100%;
+        clear: both;
+        min-height: 400px;
+    }
+    aside{
+        min-height: 400px;
+        width: 25%;
+        background: pink;
+        float: left;
+        height: auto;
+    }
+    footer{
+        height: 40px;
+        background: gray;
+        clear: both;
+        text-align: center;
+    }
+    </style>
+    </head>
+    <body>
+        <div >
+            <header>
+                Header
+            </header>
+            <nav>
+                <a href="index.html" target="page">Trang chủ</a> |
+                <a href="lienhe.html" target="page">Liên hệ</a> |
+                <a href="Sothich.html" target="page">sở thích</a> |
+                <a href="Trinhdo.html" target="page">trình độ</a>
+
+            </nav>
+            <div>
+                <article>
+                    <iframe src="home.html" name="page" framborder="1"></iframe>
+                </article>
+                <aside>Control panel</aside>
+            </div>
+            <footer>FOOTER</footer>
+        </div>
+    </body>
+
+</html>

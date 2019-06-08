@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ví dụ 2</title>
+    <style>
+        div {
+            border: 1px solid red;
+            width: 200px;
+            height: 150px;
+            display: inline-block;
+        }
+
+        #d2 {
+            position: static;
+            right: 50px;
+            top: 50px;
+           
+        }
+        #d3 {
+            position: relative;
+            right: 50px;
+            top: 50px;
+           
+        }
+        #d4 {
+            position: absolute;
+            right: 5px;
+            top: 5px;
+           
+        }
+        #d5 {
+            position: fixed;
+            right: 5px;
+            top: 5px;
+           
+        }
+
+        #d6{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="d1">d1-default</div>
+    <div id="d2">d2-static</div>
+    <div id="d3">d3-relative </div>
+    <div id="d4">d4-absolute </div>
+    <div id="d5">
+        d5-fixed>
+        <div id="d6">d6-absolute </div>
+    </div>
+</body>
+
+</html>

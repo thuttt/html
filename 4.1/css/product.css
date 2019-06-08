@@ -1,0 +1,38 @@
+.prod{
+    box-shadow: 0 0 5px gray;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+}
+.prod>.name{
+    font-variant: small-caps;
+    color: blue;
+}
+.prod>.image{
+    max-width: 95%;
+    height: 200px;
+}
+.new{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.icons{
+    max-width: 5%;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 24px;
+
+}
+.prod>.price{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+}

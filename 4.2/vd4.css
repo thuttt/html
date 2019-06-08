@@ -1,0 +1,53 @@
+.container>nav{
+    background-color: rgb(26, 137, 228);
+    text-align: center;
+    font-variant: small-caps;
+    line-height: 40px;
+    color: white;
+    position: relative; 
+    top:0px;
+}
+.right{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    
+}
+.right a{
+    color: #ffffff;
+    text-decoration: none;
+    display:inline-block ;
+}
+.container nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+.container nav ul li{    
+    display: inline-table;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+   
+}
+.container nav ul li a{
+    color: #ffffff;
+    text-decoration: none;   
+    position: relative;
+    display: block;
+    background-color: rgb(26, 137, 228);
+}
+.container nav a:hover{
+    color:rgb(35, 35, 179);
+    text-decoration: underline;
+    background-color:#fcf0b6 ;
+    font-weight: bold;   
+}  
+
+.container nav ul li>.sub-menu{
+    display: none; 
+    position: absolute;
+     
+}
+.container nav li:hover .sub-menu{
+    display: block;          
+}

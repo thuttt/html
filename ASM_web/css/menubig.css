@@ -1,0 +1,20 @@
+.hmenu{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  height: 50px;
+  background-color: #00b0ea;}
+ul.hmenu>li>a{
+	display: block;
+  line-height: 30px;
+  text-decoration: none;
+  padding-left: 25px;
+  color: white;
+  font-weight: bolder;}
+ul.hmenu>li>a:hover{font-weight: bolder;
+  color: red;}
+ul.hmenu>li{ 
+  float: left;
+  margin: 10px 12px;
+  position: relative;}
+ul.hmenu>li:hover>.submenu{display: block;}

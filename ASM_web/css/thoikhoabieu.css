@@ -1,0 +1,27 @@
+table{width: 95%;border: 1px solid #99c2e6;
+    border-collapse: collapse;padding:5px 20px;}
+
+
+th, td{
+	border: 1px solid #99c2e6;
+    text-align: center;
+    border-collapse: collapse;
+    min-width: 50px;
+    padding:5px 20px;
+    min-height: 30px;
+}
+thead{
+	background-color: gray;
+	color: white;
+}
+tbody>tr:nth-child(2n+1){
+
+}
+
+tbody>tr:nth-child(2n+1){
+    background-color: #f1f1f1;}
+
+
+td:hover{color: red;
+font-weight: bold;}
+    }
