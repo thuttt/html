@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <title>Trang chủ</title>
     <link href="css/index.css" type="text/css" rel="stylesheet">
+    <link href="css/form.css" type="text/css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
 </head>
 
 <body>
@@ -19,22 +21,23 @@
                     <ul>
                         <li> <a href="index.html" target="_self">Trang chủ</a> </li>
                         <li>
-                            <a href="lichsu.html" target="_blank">Lịch sử</a>
-                            <ul class="sub-menu">
-                                    <li><a href="sumenh.html">Sứ mệnh</a></li><br />
-                                </ul>
+                            <a href="sumenh.html" target="_blank">Sứ mệnh</a>
                         </li>
                         <li>
-                            <a href="tuyensinh.html" target="_blank">Tuyển sinh</a>
+                            <a href="khoahoc.html" target="_blank">Khóa học</a>
                             <ul class="sub-menu">
-                                <li><a href="khoi10.html">Khối lớp 10</a></li><br />
-                                <li><a href="khoi11.html">Khối lớp 11</a></li><br />
-                                <li><a href="khoi12.html">Khối lớp 12</a></li>
+                                <li><a href="khoahocmoi.html">Khóa học mới</a></li><br />
+                                <li><a href="khoahochot.html">Khóa học hot</a></li><br />
+
+
                             </ul>
                         </li>
-
-                        <li> <a href="lienhe.html" target="_blank">Liên hệ</a> </li>
-                        <li> <a href="hoidap.html" target="_blank">Hỏi đáp</a></li>
+                        <li>
+                            <a href="lienhe.html" target="_blank">Liên hệ</a>
+                            <ul class="sub-menu">
+                                <li><a href="gopy.html">Góp ý</a></li><br />
+                            </ul>
+                        </li>
                         <li>
                             <a href="dangnhap.html" target="_blank">Đăng nhập</a>
                             <ul class="sub-menu">
@@ -44,45 +47,45 @@
                         </li>
                     </ul>
                 </div>
-                <div class="right">
-                    <a href="#">Tiếng Việt</a>
-                    <a href="#">Tiếng Anh</a>
-
+                <div>
+                    <iframe width="100%" height="auto" src="https://www.youtube.com/embed/Nx3j4U16pLM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <iframe src="https://albumizr.com/a/dG4z" scrolling="no" frameborder="0" allowfullscreen width="100%" height="auto"></iframe>
                 </div>
             </nav>
             <div class="main_content">
                 <aside class="menu">
                     <div>
-                        <ul>
+                        <ul class="bullet_star imglist">
                             <li>
                                 <a href="tintuc.html" target="_blank"> Tin tức nổi bật</a> <br /><br />
                             </li>
                             <li>
-                                <a href="sanpham.html" target="_blank">Tiêu điểm</a> <br /><br />
+                                <a href="tieudiem.html" target="_blank">Tiêu điểm</a> <br /><br />
 
                             </li>
                             <li>
-                                <a href="sanpham.html" target="_blank">Hỗ trợ trực tuyến</a> <br />
+                                <a href="hotro.html" target="_blank">Hỗ trợ trực tuyến</a> <br />
                             </li>
                         </ul>
                     </div>
                 </aside>
-
                 <article>
-                    <h1>ĐĂNG NHẬP</h1>
-                    <br />
-                    <form>
-                        <div>
-                            <label>Tài khoản:</label><br />
-                            <input type="text" name="Họ Tên" /><br />
-                            <label>Mật khẩu:</label><br />
-                            <input type="password" name="password" class="form-control" /><br /><br />
-                            <label><input type="checkbox">Nhớ mật khẩu</label>
-                        </div>
-
-                        <button>Login</button>
-                    </form>
-
+                    <div class="content">
+                        <h1>ĐĂNG NHẬP</h1>
+                        <br />
+                        <form>
+                            <div>
+                                <label>Tài khoản:</label><br />
+                                <input class="text-box" type="text" name="Họ Tên" /><br /><br/>
+                                <label>Mật khẩu:</label><br />
+                                <input class="text-box" type="password" name="password" class="form-control" /><br /><br />
+                                <label><input  type="checkbox">Nhớ mật khẩu</label><br/><br/>
+                                <button class="btn">Login</button>
+                            </div>
+                        </form>
+                    </div>
                 </article>
 
 
