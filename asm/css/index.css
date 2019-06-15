@@ -23,17 +23,15 @@
     font-variant: small-caps;
     line-height: 40px;
     color: white;
+    position: relative;
 }
 
 .right {
     position: absolute;
     bottom: 0px;
-    right: 0px;
-}
-
-.right a {
-    color: #ffffff;
-    text-decoration: none;
+    right: 10px;
+    display: inline-table;
+ 
 }
 
 .container nav ul {
@@ -47,7 +45,6 @@
 .container nav ul li {
     display: inline-table;
     width: 120px;
-    height: 40px;
     line-height: 40px;
 }
 
@@ -119,6 +116,7 @@ p {
 
 .article_item {
     padding: 10px;
+ 
 }
 
 .article_img {
