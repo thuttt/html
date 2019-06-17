@@ -33,6 +33,12 @@
     display: inline-table;
  
 }
+.container nav input:hover {
+    color: rgb(35, 35, 179);
+    text-decoration: underline;
+    background-color: #fcf0b6;
+ 
+}
 
 .container nav ul {
     list-style-type: none;
