@@ -1,0 +1,74 @@
+.container{
+    margin: 0 auto;
+    width: 981px;
+    height: 999px;
+   
+}
+header{
+    text-align: center;
+    
+}
+.baner{
+    background-color: #350a21;
+    width: 984px;
+    height: 150px;
+    text-align: center;
+    
+}
+.baner img{
+    padding: 40px;
+}
+.the{
+    background-color: #b85797; 
+    font-variant: small-caps;
+    display: inline-block; 
+    width: 984px;
+}
+.container nav ul li {
+    display: inline-block;  
+}
+.container nav ul li a{
+     color: white;
+     text-decoration: none;
+     padding: 10px;
+}
+.container nav ul li a:hover{
+    color: white;
+    background-color: #350a21;
+}
+h1{
+    color: #b85797;
+}
+hr{
+    width: 736px;
+    color: #b85797;
+}
+article{
+    width: 741px;
+    height: 746px;
+    float: left;
+}
+.sp{
+    border: 1px solid black;
+    width: 245px;
+    
+
+}
+aside{
+    width:240px;
+    height:746px;
+    background-color:#fae8f4; 
+    float: left;
+}
+.dangky{
+    padding: 20PX;
+
+}
+.dangky label{
+    color: #350a21;
+    padding: 10px;
+}
+button{
+    background-color: #350a21;
+    color: azure;
+}
