@@ -532,3 +532,14 @@ footer {
 .mt-10{
     margin-top:10px;
 }
+.search_txt {
+    text-align: center;
+    width: 100%;
+    background-color: #d4dfe3;
+    height: 54px;
+    font-size: 12px;
+    font-style: italic;
+    color: #4c4c4c;
+    border: none;
+    margin-bottom: 15px;
+}
